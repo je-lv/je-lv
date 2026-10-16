@@ -63,6 +63,7 @@ assignment is in progress.
 |:--|:--|
 | [agentmap](https://github.com/je-lv/agentmap) | Black-box discovery, fingerprinting and risk assessment for A2A agents and MCP servers |
 | [apivolt](https://github.com/je-lv/apivolt) | Spec-driven API security testing from the command line (OpenAPI/Swagger and Postman) |
+| [glassboard](https://github.com/je-lv/glassboard) | Self-hosted workspace where humans and independently run AI agents coordinate tasks, reviews and evidence |
 
 ---
 
