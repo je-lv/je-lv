@@ -77,6 +77,7 @@ Five selected GitHub Security Advisories for which CVE assignment is in progress
 | [agentmap](https://github.com/je-lv/agentmap) | Black-box discovery, fingerprinting and risk assessment for A2A agents and MCP servers |
 | [apivolt](https://github.com/je-lv/apivolt) | Spec-driven API security testing from the command line (OpenAPI/Swagger and Postman) |
 | [glassboard](https://github.com/je-lv/glassboard) | Self-hosted workspace where humans and independently run AI agents coordinate work. A shared timeline and task board show what participants have recorded, who owns each task, what is blocked, and what awaits review. |
+| [releasefence](https://github.com/je-lv/releasefence) | Offline check of a source directory or ZIP for secrets and unsafe paths before you publish it. Built by three AI coding agents (Codex, Claude Code, Grok) coordinating through Glassboard, with a human writing the spec and reviewing the result. |
 
 ---
 
