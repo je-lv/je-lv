@@ -2,12 +2,25 @@
 
 Researcher: Jose Lomeli (`je-lv`)
 
-Last verified: November 5, 2026
+Last verified: November 19, 2026
 
-This catalog contains my published CVEs and GitHub Security Advisories. Reserved identifiers and
-affected products remain private until coordinated publication.
+This catalog contains my published CVEs and GitHub Security Advisories. Other reserved identifiers
+and affected products remain private until coordinated publication.
 
 ## Published CVEs
+
+### DreameHome Android, cloud, and MQTT services
+
+Technical reference: [Responsible Disclosure of DreameHome Android, Cloud, and MQTT Security Vulnerabilities](https://github.com/je-lv/dreame-security-research)
+
+| CVE | Vulnerability | Severity |
+|:--|:--|:--|
+| [CVE&#8209;2026&#8209;49960](https://www.cve.org/CVERecord?id=CVE-2026-49960) | Cross-account Meari credential disclosure enabling camera-media access | Critical |
+| [CVE&#8209;2026&#8209;49961](https://www.cve.org/CVERecord?id=CVE-2026-49961) | Unauthorized MQTT subscriptions disclose home maps and device telemetry | Medium |
+| [CVE&#8209;2026&#8209;49962](https://www.cve.org/CVERecord?id=CVE-2026-49962) | MQTT access persists after device sharing is revoked | Medium |
+| [CVE&#8209;2026&#8209;49963](https://www.cve.org/CVERecord?id=CVE-2026-49963) | Tampered React Native plugin code runs inside DreameHome | High |
+| [CVE&#8209;2026&#8209;49964](https://www.cve.org/CVERecord?id=CVE-2026-49964) | Unauthorized RTC token issuance for another device's live-video channel | High |
+| [CVE&#8209;2026&#8209;49965](https://www.cve.org/CVERecord?id=CVE-2026-49965) | Unauthorized camera-binding reassignment between accounts | High |
 
 ### VitaFit Android and cloud services
 
@@ -54,4 +67,5 @@ Technical reference: [Responsible Disclosure of VitaFit Android and Cloud Securi
 | Horilla HR | Employee can delete any other employee's documents | Medium | CWE-639/862 | [GHSA-x72c-5gf7-97g3](https://github.com/horilla/horilla-hr/security/advisories/GHSA-x72c-5gf7-97g3) |
 | Horilla HR | Manager of one person can self-approve a leave allocation | Medium | CWE-639/863 | [GHSA-gc35-jfv9-r3cm](https://github.com/horilla/horilla-hr/security/advisories/GHSA-gc35-jfv9-r3cm) |
 | FileBrowser Quantum | Stored XSS through a DOCX hyperlink in the document viewer | Medium | CWE-79 | [GHSA-9wm6-jcjh-3m8c](https://github.com/gtsteffaniak/filebrowser/security/advisories/GHSA-9wm6-jcjh-3m8c) |
+| Mealie | Cross-tenant object creation in shopping-list items and recipe comments | High | CWE-639/862 | [GHSA-qxhj-xxq3-m4w2](https://github.com/mealie-recipes/mealie/security/advisories/GHSA-qxhj-xxq3-m4w2) |
 | Craft CMS | Stored XSS in the control panel through an unescaped draft name | Medium | CWE-79 | [GHSA-2rp4-x2j7-qmcc](https://github.com/craftcms/cms/security/advisories/GHSA-2rp4-x2j7-qmcc) |
