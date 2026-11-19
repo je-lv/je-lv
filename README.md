@@ -62,7 +62,7 @@ Additional coordinated disclosures remain private while vendors complete remedia
 
 ### ⏳ Featured advisories awaiting CVE
 
-Five selected GitHub Security Advisories for which CVE assignment is in progress.
+Ten selected published GitHub Security Advisories without CVE identifiers.
 
 | Project | Vulnerability | Severity | Advisory |
 |:--|:--|:--|:--|
@@ -70,7 +70,12 @@ Five selected GitHub Security Advisories for which CVE assignment is in progress
 | Horilla HR | Stored XSS leading to credential theft and account takeover | High | [`GHSA-rf47-2qgf-qq4j`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-rf47-2qgf-qq4j) |
 | Horilla HR | Reporting manager can overwrite any employee's bank details and redirect salary payments | High | [`GHSA-39gq-9wwx-p8hx`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-39gq-9wwx-p8hx) |
 | Horilla HR | Any employee can approve any reimbursement and set an arbitrary payout amount | High | [`GHSA-56x4-6268-vg4f`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-56x4-6268-vg4f) |
+| Mealie | Cross-tenant creation of shopping-list items and recipe comments | High | [`GHSA-qxhj-xxq3-m4w2`](https://github.com/mealie-recipes/mealie/security/advisories/GHSA-qxhj-xxq3-m4w2) |
 | FileBrowser Quantum | Stored XSS through a DOCX hyperlink in the document viewer | Medium | [`GHSA-9wm6-jcjh-3m8c`](https://github.com/gtsteffaniak/filebrowser/security/advisories/GHSA-9wm6-jcjh-3m8c) |
+| Horilla HR | Server-side template injection on REST mail-template endpoints | Medium | [`GHSA-fphr-9vwh-crmq`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-fphr-9vwh-crmq) |
+| Horilla HR | Candidate can read another candidate's uploaded documents | Medium | [`GHSA-p745-9729-g8jw`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-p745-9729-g8jw) |
+| Horilla HR | Employee can delete another employee's documents | Medium | [`GHSA-x72c-5gf7-97g3`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-x72c-5gf7-97g3) |
+| Craft CMS | Stored XSS through an unescaped control-panel draft name | Medium | [`GHSA-2rp4-x2j7-qmcc`](https://github.com/craftcms/cms/security/advisories/GHSA-2rp4-x2j7-qmcc) |
 
 [View all published advisories awaiting CVE assignment →](SECURITY-RESEARCH.md#published-advisories-awaiting-cve)
 
