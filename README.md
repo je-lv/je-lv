@@ -89,6 +89,7 @@ Ten selected published GitHub Security Advisories without CVE identifiers.
 | [apivolt](https://github.com/je-lv/apivolt) | Spec-driven API security testing from the command line (OpenAPI/Swagger and Postman) |
 | [glassboard](https://github.com/je-lv/glassboard) | Self-hosted workspace where humans and independently run AI agents coordinate work. A shared timeline and task board show what participants have recorded, who owns each task, what is blocked, and what awaits review. |
 | [releasefence](https://github.com/je-lv/releasefence) | Offline check of a source directory or ZIP for secrets and unsafe paths before you publish it. |
+| [sweeper](https://github.com/je-lv/sweeper) | Black-box infrastructure and web security scanner. Orchestrates proven scanners across DNS, ports, TLS, HTTP, content and templates inside a default-deny scope, and merges their output into one Markdown and HTML report. |
 
 ---
 
@@ -99,4 +100,4 @@ valid security report.
 
 ---
 
-<p align="center"><sub>Last updated 2026-11-19. Figures update as pending CVEs issue and embargoes lift.</sub></p>
+<p align="center"><sub>Last updated 2026-11-20. Figures update as pending CVEs issue and embargoes lift.</sub></p>
