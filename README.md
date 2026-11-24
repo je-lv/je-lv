@@ -1,10 +1,10 @@
-<h1 align="center">José Lomelí</h1>
+<h1 align="center">José Lomelí · <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f1f2-1f1fd.svg" height="28" alt="Mexico"></h1>
 <p align="center"><b><code>je-lv</code></b> · Offensive Security &amp; Vulnerability Research · Penetration Tester</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-64-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-70-b5185c?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Published_CVEs-39-8b5cf6?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Published_GitHub_advisories-19-e5654a?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Reserved_under_coordinated_disclosure-25-d9822b?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Reserved_under_coordinated_disclosure-31-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Cybersecurity-9_years-56b6c2?labelColor=24292f&style=flat-square">
   <a href="https://www.linkedin.com/in/je-lv/"><img src="https://img.shields.io/badge/LinkedIn-je--lv-0a66c2?logo=linkedin&logoColor=white&style=flat-square"></a>
 </p>
@@ -30,7 +30,6 @@ private until coordinated publication.
 |:--|:--|:--|:--|
 | [**CVE&#8209;2026&#8209;54384**](https://www.cve.org/CVERecord?id=CVE-2026-54384) | VitaFit | Authentication bypass through forged social-login identity data | Critical |
 | [**CVE&#8209;2026&#8209;54378**](https://www.cve.org/CVERecord?id=CVE-2026-54378) | VitaFit | Cloud API exposes broadly privileged AWS credentials | Critical |
-| [**CVE&#8209;2026&#8209;49960**](https://www.cve.org/CVERecord?id=CVE-2026-49960) | DreameHome | Cross-account Meari credential disclosure enabling camera-media access | Critical |
 | [**CVE&#8209;2026&#8209;72839**](https://www.cve.org/CVERecord?id=CVE-2026-72839) | File Browser | Self-signup users inherit server root as their scope | Critical |
 | [**CVE&#8209;2026&#8209;101862**](https://www.cve.org/CVERecord?id=CVE-2026-101862) | EUSurvey | Authenticated remote code execution through survey-import path traversal | High |
 | [**CVE&#8209;2026&#8209;101863**](https://www.cve.org/CVERecord?id=CVE-2026-101863) | EUSurvey | Any authenticated user can take over and delete other users' surveys through bulk-change | High |
@@ -43,6 +42,7 @@ private until coordinated publication.
 | [**CVE&#8209;2026&#8209;54376**](https://www.cve.org/CVERecord?id=CVE-2026-54376) | VitaFit | Fitbit token interception through Android custom-scheme hijacking | High |
 | [**CVE&#8209;2026&#8209;49964**](https://www.cve.org/CVERecord?id=CVE-2026-49964) | DreameHome | Unauthorized RTC token issuance for another device's live-video channel | High |
 | [**CVE&#8209;2026&#8209;49965**](https://www.cve.org/CVERecord?id=CVE-2026-49965) | DreameHome | Any authenticated account can reassign another user's camera binding | High |
+| [**CVE&#8209;2026&#8209;49960**](https://www.cve.org/CVERecord?id=CVE-2026-49960) | DreameHome | Cross-account Meari credential disclosure enabling camera-media access | Medium |
 
 [View the complete CVE and security-advisory catalog →](SECURITY-RESEARCH.md)
 

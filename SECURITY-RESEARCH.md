@@ -15,10 +15,10 @@ Technical reference: [Responsible Disclosure of DreameHome Android, Cloud, and M
 
 | CVE | Vulnerability | Severity |
 |:--|:--|:--|
-| [CVE&#8209;2026&#8209;49960](https://www.cve.org/CVERecord?id=CVE-2026-49960) | Cross-account Meari credential disclosure enabling camera-media access | Critical |
+| [CVE&#8209;2026&#8209;49960](https://www.cve.org/CVERecord?id=CVE-2026-49960) | Cross-account Meari credential disclosure enabling camera-media access | Medium |
 | [CVE&#8209;2026&#8209;49961](https://www.cve.org/CVERecord?id=CVE-2026-49961) | Unauthorized MQTT subscriptions disclose home maps and device telemetry | Medium |
 | [CVE&#8209;2026&#8209;49962](https://www.cve.org/CVERecord?id=CVE-2026-49962) | MQTT access persists after device sharing is revoked | Medium |
-| [CVE&#8209;2026&#8209;49963](https://www.cve.org/CVERecord?id=CVE-2026-49963) | Tampered React Native plugin code runs inside DreameHome | High |
+| [CVE&#8209;2026&#8209;49963](https://www.cve.org/CVERecord?id=CVE-2026-49963) | Tampered React Native plugin code runs inside DreameHome | Medium |
 | [CVE&#8209;2026&#8209;49964](https://www.cve.org/CVERecord?id=CVE-2026-49964) | Unauthorized RTC token issuance for another device's live-video channel | High |
 | [CVE&#8209;2026&#8209;49965](https://www.cve.org/CVERecord?id=CVE-2026-49965) | Unauthorized camera-binding reassignment between accounts | High |
 
