@@ -2,7 +2,7 @@
 
 Researcher: José Lomelí (`je-lv`)
 
-Last verified: November 19, 2026
+Last verified: November 24, 2026
 
 This catalog contains my published CVEs and GitHub Security Advisories. Other reserved identifiers
 and affected products remain private until coordinated publication.
@@ -40,6 +40,27 @@ Technical reference: [Responsible Disclosure of VitaFit Android and Cloud Securi
 | [CVE&#8209;2026&#8209;54382](https://www.cve.org/CVERecord?id=CVE-2026-54382) | Cognito IAM permissions allow cross-user object overwrite | High |
 | [CVE&#8209;2026&#8209;54383](https://www.cve.org/CVERecord?id=CVE-2026-54383) | Excessive user-data exposure through the relation search endpoint | Medium |
 | [CVE&#8209;2026&#8209;54384](https://www.cve.org/CVERecord?id=CVE-2026-54384) | Authentication bypass through forged social-login identity data | Critical |
+
+### EUSurvey (European Commission survey platform)
+
+Technical reference: [Responsible Disclosure of EU Commission's EUSurvey Vulnerabilities](https://github.com/je-lv/eusurvey-security-research)
+
+| CVE | Vulnerability | Severity |
+|:--|:--|:--|
+| [CVE&#8209;2026&#8209;101862](https://www.cve.org/CVERecord?id=CVE-2026-101862) | Authenticated remote code execution through survey-import path traversal | High |
+| [CVE&#8209;2026&#8209;101863](https://www.cve.org/CVERecord?id=CVE-2026-101863) | Any authenticated user can take over and delete other users' surveys through bulk-change | High |
+| [CVE&#8209;2026&#8209;101864](https://www.cve.org/CVERecord?id=CVE-2026-101864) | Account takeover through a password-reset link that stays valid after use | High |
+| [CVE&#8209;2026&#8209;101866](https://www.cve.org/CVERecord?id=CVE-2026-101866) | Anonymous invitation-token disclosure and draft corruption through unbound draft save | High |
+| [CVE&#8209;2026&#8209;101867](https://www.cve.org/CVERecord?id=CVE-2026-101867) | Authenticated contact-share disclosure and takeover through broken authorization | High |
+| [CVE&#8209;2026&#8209;101868](https://www.cve.org/CVERecord?id=CVE-2026-101868) | Unauthenticated survey-response disclosure through sequential contribution IDs | High |
+| [CVE&#8209;2026&#8209;101869](https://www.cve.org/CVERecord?id=CVE-2026-101869) | Unauthenticated SQL injection in public result filters leaks non-public responses | High |
+| [CVE&#8209;2026&#8209;101870](https://www.cve.org/CVERecord?id=CVE-2026-101870) | Anonymous overwrite of another respondent's contribution | High |
+| [CVE&#8209;2026&#8209;101871](https://www.cve.org/CVERecord?id=CVE-2026-101871) | Anonymous submission to closed surveys through an unguarded Delphi update endpoint | High |
+| [CVE&#8209;2026&#8209;101872](https://www.cve.org/CVERecord?id=CVE-2026-101872) | Authenticated blind SQL injection through the dashboard sort parameter | Medium |
+| [CVE&#8209;2026&#8209;101873](https://www.cve.org/CVERecord?id=CVE-2026-101873) | Stored XSS through the Delphi explanation field | Medium |
+| [CVE&#8209;2026&#8209;101874](https://www.cve.org/CVERecord?id=CVE-2026-101874) | Cross-user export-name disclosure and notification suppression through export-polling IDOR | Medium |
+| [CVE&#8209;2026&#8209;101876](https://www.cve.org/CVERecord?id=CVE-2026-101876) | Blind SSRF through PDF export image fetching | Medium |
+| [CVE&#8209;2026&#8209;101877](https://www.cve.org/CVERecord?id=CVE-2026-101877) | Cross-survey restricted-PDF access through invitation tokens | Medium |
 
 ### Open-source applications
 
